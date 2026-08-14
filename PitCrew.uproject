@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"EngineAssociation": "5.8",
 	"Category": "",
-	"Description": "",
+	"Description": "2–6 player cooperative physics-comedy motorsport game centred on the fictional British Shitbox Championship.",
 	"Modules": [
 		{
 			"Name": "PitCrew",
@@ -10,7 +10,6 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"AIModule",
 				"UMG"
 			]
 		}
@@ -22,14 +21,6 @@
 			"TargetAllowList": [
 				"Editor"
 			]
-		},
-		{
-			"Name": "StateTree",
-			"Enabled": true
-		},
-		{
-			"Name": "GameplayStateTree",
-			"Enabled": true
 		}
 	]
 }

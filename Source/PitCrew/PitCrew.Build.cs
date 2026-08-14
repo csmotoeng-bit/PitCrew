@@ -14,9 +14,6 @@ public class PitCrew : ModuleRules
 			"Engine",
 			"InputCore",
 			"EnhancedInput",
-			"AIModule",
-			"StateTreeModule",
-			"GameplayStateTreeModule",
 			"UMG",
 			"Slate"
 		});
