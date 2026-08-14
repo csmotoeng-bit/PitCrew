@@ -24,13 +24,7 @@ public class PitCrew : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
-			"PitCrew",
-			"PitCrew/Variant_Horror",
-			"PitCrew/Variant_Horror/UI",
-			"PitCrew/Variant_Shooter",
-			"PitCrew/Variant_Shooter/AI",
-			"PitCrew/Variant_Shooter/UI",
-			"PitCrew/Variant_Shooter/Weapons"
+			"PitCrew"
 		});
 
 		// Uncomment if you are using Slate UI
